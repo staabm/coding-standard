@@ -52,11 +52,11 @@ index d1e1fad..9a78bc1 100644
 -tests/input/UselessConditions.php                     21      0
 +tests/input/UselessConditions.php                     20      0
  ----------------------------------------------------------------------
--A TOTAL OF 462 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
-+A TOTAL OF 417 ERRORS AND 2 WARNINGS WERE FOUND IN 47 FILES
+-A TOTAL OF 464 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
++A TOTAL OF 419 ERRORS AND 2 WARNINGS WERE FOUND IN 47 FILES
  ----------------------------------------------------------------------
--PHPCBF CAN FIX 378 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
-+PHPCBF CAN FIX 333 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+-PHPCBF CAN FIX 380 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
++PHPCBF CAN FIX 335 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
  ----------------------------------------------------------------------
  
  

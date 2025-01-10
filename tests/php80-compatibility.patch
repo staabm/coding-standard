@@ -23,11 +23,11 @@ index d1e1fad..71022c4 100644
  tests/input/useless-semicolon.php                     2       0
  tests/input/UselessConditions.php                     21      0
  ----------------------------------------------------------------------
--A TOTAL OF 462 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
-+A TOTAL OF 456 ERRORS AND 2 WARNINGS WERE FOUND IN 49 FILES
+-A TOTAL OF 464 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
++A TOTAL OF 458 ERRORS AND 2 WARNINGS WERE FOUND IN 49 FILES
  ----------------------------------------------------------------------
--PHPCBF CAN FIX 378 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
-+PHPCBF CAN FIX 372 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+-PHPCBF CAN FIX 380 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
++PHPCBF CAN FIX 374 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
  ----------------------------------------------------------------------
  
  

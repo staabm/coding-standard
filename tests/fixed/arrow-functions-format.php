@@ -32,12 +32,12 @@ $arrayWithArrowFunctions = [
 ];
 
 $singleLineArrayReturn = Collection::map(
-    static fn () => [1, 2]
+    static fn () => [1, 2],
 );
 
 $wrongMultiLineArrayReturn = Collection::map(
     static fn () => [
         1,
         2,
-    ]
+    ],
 );
