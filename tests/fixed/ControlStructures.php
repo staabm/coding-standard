@@ -11,7 +11,7 @@ use const PHP_VERSION;
 
 class ControlStructures
 {
-    private const VERSION = PHP_VERSION;
+    private const int VERSION = PHP_VERSION;
 
     /** @return iterable<int> */
     public function varAndIfNoSpaceBetween(): iterable

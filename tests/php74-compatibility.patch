@@ -1,13 +1,18 @@
 diff --git a/tests/expected_report.txt b/tests/expected_report.txt
-index 087995d..5284a56 100644
+index 8547171..f01ece0 100644
 --- a/tests/expected_report.txt
 +++ b/tests/expected_report.txt
-@@ -17,26 +17,23 @@ tests/input/constants-var.php                         6       0
+@@ -13,30 +13,27 @@ tests/input/class-references.php                      10      2
+ tests/input/ClassPropertySpacing.php                  2       0
+ tests/input/concatenation_spacing.php                 49      0
+ tests/input/constants-no-lsb.php                      2       0
+-tests/input/constants-var.php                         13      0
++tests/input/constants-var.php                         7       0
  tests/input/ControlStructures.php                     28      0
  tests/input/doc-comment-spacing.php                   11      0
  tests/input/duplicate-assignment-variable.php         1       0
 -tests/input/EarlyReturn.php                           7       0
--tests/input/example-class.php                         47      0
+-tests/input/example-class.php                         48      0
 -tests/input/ExampleBackedEnum.php                     5       0
 -tests/input/Exceptions.php                            1       0
 +tests/input/EarlyReturn.php                           6       0
@@ -50,18 +55,27 @@ index 087995d..5284a56 100644
 -tests/input/UselessConditions.php                     21      0
 +tests/input/UselessConditions.php                     20      0
  ----------------------------------------------------------------------
--A TOTAL OF 468 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
-+A TOTAL OF 428 ERRORS AND 2 WARNINGS WERE FOUND IN 47 FILES
+-A TOTAL OF 476 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
++A TOTAL OF 429 ERRORS AND 2 WARNINGS WERE FOUND IN 47 FILES
  ----------------------------------------------------------------------
--PHPCBF CAN FIX 384 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
-+PHPCBF CAN FIX 344 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+-PHPCBF CAN FIX 391 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
++PHPCBF CAN FIX 345 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
  ----------------------------------------------------------------------
  
  
 diff --git a/tests/fixed/ControlStructures.php b/tests/fixed/ControlStructures.php
-index f8f7f65..a653086 100644
+index 480e419..a653086 100644
 --- a/tests/fixed/ControlStructures.php
 +++ b/tests/fixed/ControlStructures.php
+@@ -11,7 +11,7 @@ use const PHP_VERSION;
+
+ class ControlStructures
+ {
+-    private const int VERSION = PHP_VERSION;
++    private const VERSION = PHP_VERSION;
+
+     /** @return iterable<int> */
+     public function varAndIfNoSpaceBetween(): iterable
 @@ -104,7 +104,7 @@ class ControlStructures
  
          try {
@@ -192,6 +206,37 @@ index 71e0cfb..2151b17 100644
      {
          if (! $this->isAdmin) {
              return null;
+diff --git a/tests/fixed/constants-var.php b/tests/fixed/constants-var.php
+index f10c235..d4268cb 100644
+--- a/tests/fixed/constants-var.php
++++ b/tests/fixed/constants-var.php
+@@ -13,19 +13,19 @@ const BAR_1 = 2;
+
+ class Bar
+ {
+-    public const int BAZ = 456;
++    public const BAZ = 456;
+
+-    protected const string PROPERTY_1 = '1';
+-    protected const string PROPERTY_2 = '2';
++    protected const PROPERTY_1 = '1';
++    protected const PROPERTY_2 = '2';
+ }
+
+ class Spacing
+ {
+-    public const string FOO = 'bar';
+-    public const string BAR = 'bar';
++    public const FOO = 'bar';
++    public const BAR = 'bar';
+
+-    public const string BAZ = 'baz';
++    public const BAZ = 'baz';
+
+     /** Brevis, primus coordinataes foris promissio de varius, barbatus heuretes. */
+-    private const int BAM = 1234;
++    private const BAM = 1234;
+ }
 diff --git a/tests/fixed/example-class.php b/tests/fixed/example-class.php
 index 4988dab..c31e53f 100644
 --- a/tests/fixed/example-class.php
@@ -349,9 +394,18 @@ index 5e26ed8..bfa6d4f 100644
 +    private $x = 1;
  }
 diff --git a/tests/input/ControlStructures.php b/tests/input/ControlStructures.php
-index 73944e3..a0e0b2e 100644
+index 7c20d0e..a0e0b2e 100644
 --- a/tests/input/ControlStructures.php
 +++ b/tests/input/ControlStructures.php
+@@ -11,7 +11,7 @@ use const PHP_VERSION;
+
+ class ControlStructures
+ {
+-    private const int VERSION = PHP_VERSION;
++    private const VERSION = PHP_VERSION;
+
+     /** @return iterable<int> */
+     public function varAndIfNoSpaceBetween(): iterable
 @@ -93,7 +93,7 @@ class ControlStructures
          }
          try {
