@@ -482,10 +482,11 @@
             </property>
         </properties>
     </rule>
-    <!-- Define unions style -->
-    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
+    <!-- Define DNF style -->
+    <rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
         <properties>
-            <property name="withSpaces" value="no" />
+            <property name="withSpacesAroundOperators" value="no" />
+            <property name="withSpacesInsideParentheses" value="no" />
             <property name="shortNullable" value="no" />
             <property name="nullPosition" value="last" />
         </properties>
