@@ -34,7 +34,7 @@ tests/input/null_coalesce_equal_operator.php          5       0
 tests/input/null_coalesce_operator.php                3       0
 tests/input/null_safe_operator.php                    1       0
 tests/input/optimized-functions.php                   1       0
-tests/input/PropertyDeclaration.php                   14      0
+tests/input/PropertyDeclaration.php                   16      0
 tests/input/return_type_on_closures.php               26      0
 tests/input/return_type_on_methods.php                22      0
 tests/input/semicolon_spacing.php                     3       0
@@ -54,9 +54,9 @@ tests/input/use-ordering.php                          1       0
 tests/input/useless-semicolon.php                     2       0
 tests/input/UselessConditions.php                     21      0
 ----------------------------------------------------------------------
-A TOTAL OF 464 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
+A TOTAL OF 466 ERRORS AND 2 WARNINGS WERE FOUND IN 50 FILES
 ----------------------------------------------------------------------
-PHPCBF CAN FIX 380 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+PHPCBF CAN FIX 382 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 
