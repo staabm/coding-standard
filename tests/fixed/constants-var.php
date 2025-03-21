@@ -13,19 +13,19 @@ const BAR_1 = 2;
 
 class Bar
 {
-    public const BAZ = 456;
+    public const int BAZ = 456;
 
-    protected const PROPERTY_1 = '1';
-    protected const PROPERTY_2 = '2';
+    protected const string PROPERTY_1 = '1';
+    protected const string PROPERTY_2 = '2';
 }
 
 class Spacing
 {
-    public const FOO = 'bar';
-    public const BAR = 'bar';
+    public const string FOO = 'bar';
+    public const string BAR = 'bar';
 
-    public const BAZ = 'baz';
+    public const string BAZ = 'baz';
 
     /** Brevis, primus coordinataes foris promissio de varius, barbatus heuretes. */
-    private const BAM = 1234;
+    private const int BAM = 1234;
 }
