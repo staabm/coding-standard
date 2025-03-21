@@ -6,17 +6,17 @@
 >
     <description>Check the code of the sniffs in doctrine/coding-standards.</description>
 
-    <arg name="basepath" value="."/>
-    <arg name="extensions" value="php"/>
+    <arg name="basepath" value="." />
+    <arg name="extensions" value="php" />
     <arg name="colors" />
 
     <!-- Show progress of the run -->
-    <arg value="p"/>
+    <arg value="p" />
 
     <!--Show sniff codes in all reports -->
-    <arg value="s"/>
+    <arg value="s" />
 
-    <rule ref="Doctrine"/>
+    <rule ref="Doctrine" />
 
     <file>lib</file>
 </ruleset>
