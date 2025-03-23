@@ -19,3 +19,9 @@ updates:
     - 7.0.2
     - 7.0.4
     - 7.0.5
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "weekly"
+  labels:
+    - "CI"
